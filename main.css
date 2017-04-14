@@ -1,0 +1,105 @@
+/***** Body *****/
+body {
+	background-color: teal;
+}
+
+/***** Header *****/
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+	font-size: 4em;
+	color: #ccc;
+}
+
+
+/***** Navigation Bar *****/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #99ff99;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 800;
+	text-decoration: none;
+	color: #006666;
+	display: block;
+	padding: 15px 10px;
+}
+
+li a:hover {
+	color: #fff;
+	background-color: #003366;
+}
+
+
+/***** Articles *****/
+
+.business {
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+}
+
+.date {
+	font-size: 1em;
+	font-weight: 600;
+	text-align: center;
+}
+
+.styled {
+	display: block;
+	width: 600px
+	margin 0 auto;
+	border: 2px solid #ccc;
+	text-align: center;
+	background-color: #ccc;
+
+}
+
+/***** Footer *****/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #fff;
+}
+
+/***** Contact Page *****/
+
+.center {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.contact {
+	text-align: center;
+	font-weight: 700;
+	border: 2px solid #ccc;
+	background-color: #ccc;
+	margin: 0 auto;
+	padding: 15px 10px;
+}
+
+.style {
+	text-decoration: underline;
+}
